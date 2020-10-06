@@ -4,7 +4,7 @@ import Landingpage from '../components/templates/home';
 function HomePage(props) {
     return (
         <div>
-            <Landingpage {...props}/>
+            <Landingpage {...props}/> 
         </div>
     );
 }
