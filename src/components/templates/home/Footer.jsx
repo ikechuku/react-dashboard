@@ -56,7 +56,7 @@ import { images } from '../../../assets/Images'
 // function Footer() {
 //     return (
 //         <DivFooter>
-//             <div>   
+//             <div>
 //                 <div>
 //                     <Box>
 //                         <Image src={Logo} />
@@ -70,11 +70,11 @@ import { images } from '../../../assets/Images'
 
 //                     }]
 //                 }
-           
+
 //             </div>
 
 
-            
+
 //         </DivFooter>
 //     );
 // }
@@ -118,7 +118,7 @@ export const FooterStyle = styled.section`
     @media (min-width: 600px) {
       text-align: left;
     }
-  
+
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -140,7 +140,7 @@ export const FooterStyle = styled.section`
 `;
 const { LOGO } = images
 const Footer = () => (
-    
+
     < FooterStyle>
         <Container>
             <Grid container alignItems="flex-start">
@@ -190,7 +190,7 @@ const Footer = () => (
                         ),
                     },
                     {
-                        head: <Text variant="subtitle1">Follow us</Text>,
+                        head: <Text variant="subtitle1"> Social</Text>,
                         list: [
                             { text: Twitter, href: '#' },
                             { text: Facebook, href: '#' },

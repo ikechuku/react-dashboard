@@ -13,12 +13,12 @@ import googlestore from '../../../assets/Images/googleplay_icon.svg'
 const useStyles = makeStyles((theme) => ({
     sellCrypto: {
         margin: '0 auto',
-     
+
     },
     stores: {
         [theme.breakpoints.up('md')]: {
             marginTop: '2em',
-            
+
         }
     }
 
@@ -51,7 +51,7 @@ const Sendcrypto = styled.div`
         margin-left: 5em;
     }
   }
-   
+
 
 `
 function SendCrypto() {
@@ -59,7 +59,7 @@ function SendCrypto() {
     return (
         <Sendcrypto>
             <Box className={classes.sellCrypto} display='flex' flexDirection='column' alignItems='center'  >
-                <Text variant='h3' fontSize='27px' textAlign='center' color={colors.white} marginTop='1.5em' >Download our app to send & receive crypto on the go!</Text>
+                <Text variant='h3' fontSize='27px' textAlign='center' color={colors.white} marginTop='1.5em' >Send and receive crypto on the go with Syarpa</Text>
                 <Text variant='h5' fontSize='19px' textAlign='center' color={colors.white}>Start trading today</Text>
                 <Box className={classes.stores}>
                     <Grid container justifyContent='center' spacing={2}>
@@ -71,7 +71,7 @@ function SendCrypto() {
                         </Grid>
                     </Grid>
                 </Box>
-            
+
             </Box>
         </Sendcrypto>
     );
